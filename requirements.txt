@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+redis
+websocket-client
+numpy
+psutil
+numba
+prometheus_client
+pytest
+httpx
+backoff

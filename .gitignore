@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.envrc
+*.env
+
+# Logs and database
+logs/
+*.log
+*.sqlite3
+*.db
+*.sqlite
+*.pkl
+
+# Redis and Postgres data (if mapped to local volume)
+redis_data/
+postgres_data/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+docker-compose.logs
+*.pid
+
+# Pytest cache and test-related files
+.pytest_cache/
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+htmlcov/
+
+# VSCode and JetBrains
+.vscode/
+.idea/
+*.iml
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Prometheus and metrics
+prometheus_data/
+*.prom
+
+# Node modules (if frontend is involved)
+node_modules/
+
+# Compiled files and caches
+*.so
+*.swp
+*.swo
+*.lock
+
+# Kubernetes and Terraform (if relevant)
+.kube/
+.terraform/
