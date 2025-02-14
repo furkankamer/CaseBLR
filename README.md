@@ -52,6 +52,7 @@ Build and start all services (PostgreSQL, Redis, and the FastAPI web app) by run
 ```bash
 docker-compose up --build
 ```
+The web app will be available on localhost port 8000.
 
 ### Running Tests
 
